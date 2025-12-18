@@ -1,0 +1,7 @@
+orjson>=3.9.0
+tqdm>=4.66.0
+pydantic>=2.0.0
+numpy>=1.24.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+groq>=0.4.0
