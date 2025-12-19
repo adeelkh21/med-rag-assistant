@@ -221,22 +221,6 @@ Citations used: ['WHO_AIAR_SYM_02', 'WHO_AIAR_SYM_01', 'NIDDK_AIAR_SYM_01',
 | **Storage** | 2 GB | 5 GB |
 | **GPU** | None | NVIDIA GPU (CUDA 11.8+) |
 
-### Dependency Installation
-
-```bash
-# Core dependencies
-pip install orjson>=3.9.0          # Fast JSON parsing
-pip install tqdm>=4.66.0           # Progress bars
-pip install pydantic>=2.0.0        # Data validation
-pip install numpy>=1.24.0          # Numerical computing
-pip install sentence-transformers>=2.2.0  # Embeddings
-pip install faiss-cpu>=1.7.4       # Vector search
-pip install groq>=0.4.0            # Groq API
-pip install python-dotenv>=1.0.0   # Environment variables
-
-# GPU acceleration (optional but recommended)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
 
 ### Data Setup
 
@@ -272,57 +256,6 @@ python evaluation/eval_retrieval.py --quick
 ```bash
 python embeddings/build_index.py --batch-size 128
 ```
-
-### Python API
-
-#### Basic Usage
-```python
-from generation.answer_generator import MedicalAnswerGenerator
-
-generator = MedicalAnswerGenerator()
-result = generator.generate_answer("What causes high blood pressure?")
-
-if result["success"]:
-    print(result["answer"])
-else:
-    print(f"Error: {result['error']}")
-```
-
-#### Advanced Usage with Verbose Output
-```python
-generator = MedicalAnswerGenerator(top_k=8, max_retries=3)
-
-result = generator.generate_answer(
-    query="What are the risk factors for heart disease?",
-    temperature=0.1,
-    verbose=True
-)
-
-# Access detailed information
-print(f"Retrieved {len(result['retrieved_docs'])} documents")
-print(f"Used {len(result['citations_used'])} citations")
-print(f"Validation: {'Passed' if result['validation_passed'] else 'Failed'}")
-```
-
-#### Safety Filter Testing
-```python
-from generation.safety_filter import filter_query
-
-queries = [
-    "What are the symptoms of diabetes?",  # Safe
-    "Do I have cancer?",                   # Unsafe (diagnosis)
-    "What dose of aspirin should I take?"  # Unsafe (medication)
-]
-
-for query in queries:
-    should_proceed, refusal = filter_query(query)
-    if should_proceed:
-        print(f"✓ Safe: {query}")
-    else:
-        print(f"✗ Blocked: {query}")
-        print(f"  Reason: {refusal}")
-```
-
 ---
 
 ## 📊 Performance
@@ -351,13 +284,6 @@ for query in queries:
 | **Citation Coverage** | 100% | All answers include citations |
 | **Hallucination Rate** | 0% | No invented chunk IDs |
 | **Avg Citations/Answer** | 7.0 | Comprehensive source backing |
-
-### System Performance
-
-| Environment | Embedding Generation | Query Processing |
-|-------------|---------------------|------------------|
-| **GPU (RTX 4090)** | ~3-5 minutes | ~2-3 seconds |
-| **CPU (Intel i9)** | ~2-4 hours | ~5-8 seconds |
 
 ---
 
@@ -451,25 +377,6 @@ Each module includes detailed docstrings and inline documentation:
 - **LLM Client**: [generation/llm_client.py](generation/llm_client.py)
 - **Response Validator**: [generation/validator.py](generation/validator.py)
 - **Main Pipeline**: [generation/answer_generator.py](generation/answer_generator.py)
-
----
-
-## 🎯 Design Principles
-
-### 1. **Evidence-Grounded Responses**
-Every factual statement must be backed by citations from retrieved documents. No speculation or external knowledge injection.
-
-### 2. **Medical Safety First**
-Unsafe queries (diagnosis, medication, treatment) are blocked **before** retrieval and LLM calls to prevent misuse.
-
-### 3. **Deterministic Generation**
-Low temperature (0.1) and strict prompt engineering ensure consistent, reproducible answers.
-
-### 4. **Transparency & Trust**
-All citations include chunk IDs that can be traced back to source documents, ensuring accountability.
-
-### 5. **Production-Ready Quality**
-Comprehensive testing (5/5 tests passing), evaluation framework, and error analysis ensure reliability.
 
 ---
 
@@ -570,23 +477,6 @@ python validate_step5_8.py
 
 Contributions are welcome! Please follow these guidelines:
 
-### Development Setup
-
-```bash
-# Fork and clone the repository
-git clone https://github.com/yourusername/medical-rag-assistant.git
-cd medical-rag-assistant
-
-# Create a development branch
-git checkout -b feature/your-feature-name
-
-# Install development dependencies
-pip install -r requirements.txt
-pip install black flake8 pytest
-
-# Run tests before committing
-python validate_step5_8.py
-```
 
 ### Code Style
 
@@ -631,13 +521,6 @@ All medical information is for **educational purposes only** and should not repl
 
 ---
 
-## 📞 Contact & Support
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/medical-rag-assistant/issues)
-- **Discussions**: [Ask questions or share ideas](https://github.com/yourusername/medical-rag-assistant/discussions)
-
----
-
 ## 🚨 Disclaimer
 
 **This system is for educational and informational purposes only.**
@@ -647,29 +530,6 @@ All medical information is for **educational purposes only** and should not repl
 - ❌ **NOT validated** for patient care
 
 **Always seek the advice of qualified healthcare professionals** for medical concerns. Never disregard professional medical advice or delay seeking it because of information from this system.
-
----
-
-## 📈 Project Status
-
-**Current Version**: 1.0.0  
-**Status**: ✅ Production-Ready  
-**Last Updated**: December 20, 2024
-
-### Completed Milestones
-
-- ✅ **STEP 1-2**: Data ingestion and embedding generation
-- ✅ **STEP 3-4**: FAISS indexing and semantic retrieval
-- ✅ **STEP 5-8**: Complete answer generation pipeline
-- ✅ **STEP 9-11**: Comprehensive evaluation and error analysis
-- ✅ **STEP 10**: Final validation and testing
-
-### Performance Achievements
-
-- 🏆 **100% Recall@8** - Perfect retrieval accuracy
-- 🏆 **100% Safety Compliance** - All unsafe queries blocked
-- 🏆 **0% Hallucination Rate** - Zero invented citations
-- 🏆 **5/5 Tests Passing** - Complete validation success
 
 ---
 
