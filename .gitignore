@@ -34,3 +34,11 @@ validate_steps.py
 embeddings/embeddings.npy
 embeddings/metadata.pkl
 embeddings/config.pkl
+
+# FAISS index (too large for git - 168MB)
+retrieval/index.faiss
+retrieval/metadata_lookup.pkl
+
+# Environment variables
+.env
+

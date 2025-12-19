@@ -9,7 +9,7 @@ This repository implements a RAG pipeline over trusted public medical guidance d
 - **No re-chunking allowed** (chunks are already optimal)
 - Focus: ingestion, embedding generation, retrieval, and generation
 
-**Current Status**: ✅ STEP 1 & STEP 2 Complete (Dataset Loading + Embedding Generation)
+**Current Status**: ✅ STEPS 1-8 Complete (Dataset → Embeddings → Retrieval → Generation Pipeline)
 
 ## Repository Structure
 
@@ -29,17 +29,27 @@ Phase2_RAG/
 │   └── config.pkl                       # ✅ Model configuration
 │
 ├── retrieval/
-│   └── retriever.py                     # [TODO: STEP 3]
+│   ├── build_faiss_index.py             # ✅ STEP 3: Build FAISS index
+│   ├── retriever.py                     # ✅ STEP 4: Semantic retriever
+│   ├── index.faiss                      # ✅ FAISS index (43,207 vectors)
+│   └── metadata_lookup.pkl              # ✅ Document metadata
 │
 ├── generation/
-│   └── answer_llm.py                    # [TODO: STEP 4]
+│   ├── safety_filter.py                 # ✅ STEP 5: Pre-LLM safety gate
+│   ├── prompts.py                       # ✅ STEP 6: Prompt templates
+│   ├── llm_client.py                    # ✅ STEP 7: Groq API client
+│   ├── validator.py                     # ✅ STEP 8: Response validator
+│   └── answer_generator.py              # ✅ Main answer pipeline
 │
 ├── evaluation/
-│   └── eval_retrieval.py                # [TODO: STEP 5]
+│   └── eval_pipeline.py                 # [TODO: STEP 10]
 │
 ├── app.py                               # Main entry point
 ├── requirements.txt                     # Python dependencies
-├── validate_steps.py                    # Validation script (optional)
+├── validate_step5_8.py                  # ✅ Pipeline validation
+├── test_pipeline_no_api.py              # ✅ Component tests
+├── STEP5-8_README.md                    # ✅ Pipeline documentation
+├── STEP5-8_COMPLETE.md                  # ✅ Completion summary
 └── README.md                            # This file
 ```
 
@@ -272,21 +282,36 @@ python app.py
 
 ## Next Steps
 
-### STEP 3: Vector Index & Retrieval (In Progress)
-- Build FAISS index from generated embeddings
-- Implement semantic search functionality
-- Add query embedding with instruction prefix
-- Implement top-k document retrieval
+### ✅ STEP 3: FAISS Index Construction (Complete)
+- Built FAISS IndexFlatIP for exact inner product search
+- 43,207 vectors indexed (1024 dimensions)
+- Index persisted to disk (`retrieval/index.faiss`)
+- Validation: All vectors retrievable
 
-### STEP 4: Generation with LLM (Not Started)
-- Integrate Groq API for LLM responses
-- Implement answer generation with citations
-- Add source attribution
+### ✅ STEP 4: Semantic Retriever (Complete)
+- Implemented top-k document retrieval
+- Query encoding with instruction prefix
+- Configurable retrieval (default k=6)
+- Deterministic results for evaluation
 
-### STEP 5: Evaluation (Not Started)
-- Implement retrieval quality metrics
-- Build evaluation pipeline
-- Test end-to-end RAG system
+### ✅ STEP 5-8: Answer Generation Pipeline (Complete)
+- **Safety Filter**: Blocks diagnosis/medication/treatment queries
+- **Prompt Engineering**: Citation-grounded templates (locked)
+- **Groq API**: LLaMA-3 70B integration (deterministic)
+- **Response Validator**: Citation + disclaimer checks
+- **Main Pipeline**: End-to-end orchestration
+
+See [STEP5-8_README.md](STEP5-8_README.md) for full documentation.
+
+### STEP 9: End-to-End Testing (Not Started)
+- Create test dataset (50-100 queries)
+- Run full pipeline on test set
+- Collect success/failure metrics
+
+### STEP 10: Evaluation Pipeline (Not Started)
+- Implement faithfulness metrics
+- Safety metric evaluation
+- Retrieval quality assessment
 
 ## Key Design Decisions
 
@@ -316,14 +341,28 @@ python app.py
 
 ---
 
-**Status**: STEP 1 & STEP 2 Complete ✅  
-**Ready for**: STEP 3 (Vector Index & Retrieval)
+**Status**: STEPS 1-8 Complete ✅  
+**Ready for**: STEP 9 (End-to-End Testing) & STEP 10 (Evaluation)
 
 **Completion Summary:**
 - ✅ 43,207 medical documents loaded and validated
 - ✅ 43,207 embeddings generated with BAAI/bge-large-en-v1.5
 - ✅ All embeddings normalized (L2 norm = 1.0)
-- ✅ Metadata preserved correctly
-- ✅ Files persisted successfully (168.78 MB)
-- ✅ GPU acceleration working (RTX 4090)
-- ✅ Comprehensive validation passed
+- ✅ FAISS index built (IndexFlatIP, exact search)
+- ✅ Semantic retriever implemented (top-k, deterministic)
+- ✅ Safety filter blocks unsafe queries (diagnosis/medication/treatment)
+- ✅ Citation-grounded generation with LLaMA-3 70B (via Groq)
+- ✅ Response validation (citations + disclaimer)
+- ✅ End-to-end pipeline ready for testing
+
+**Quick Start (with Groq API key):**
+```powershell
+# Set API key
+$env:GROQ_API_KEY = "gsk_your_key_here"
+
+# Validate pipeline
+python validate_step5_8.py
+
+# Interactive demo
+python generation/answer_generator.py
+```
