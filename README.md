@@ -9,7 +9,7 @@ This repository implements a RAG pipeline over trusted public medical guidance d
 - **No re-chunking allowed** (chunks are already optimal)
 - Focus: ingestion, embedding generation, retrieval, and generation
 
-**Current Status**: ✅ STEPS 1-8 Complete (Dataset → Embeddings → Retrieval → Generation Pipeline)
+**Current Status**: ✅ STEPS 1-11 Complete (Full RAG Pipeline + Comprehensive Evaluation)
 
 ## Repository Structure
 
@@ -42,7 +42,12 @@ Phase2_RAG/
 │   └── answer_generator.py              # ✅ Main answer pipeline
 │
 ├── evaluation/
-│   └── eval_pipeline.py                 # [TODO: STEP 10]
+│   ├── evaluation_dataset.json          # ✅ 50 test queries
+│   ├── eval_retrieval.py                # ✅ STEP 10: Evaluation pipeline
+│   ├── error_analysis.py                # ✅ STEP 11: Error diagnosis
+│   ├── discover_chunks.py               # ✅ Helper for ground truth
+│   ├── evaluation_results.json          # ✅ Generated results
+│   └── evaluation_report.json           # ✅ Comprehensive report
 │
 ├── app.py                               # Main entry point
 ├── requirements.txt                     # Python dependencies
