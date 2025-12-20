@@ -42,3 +42,10 @@ retrieval/metadata_lookup.pkl
 # Environment variables
 .env
 
+# Node modules (frontend)
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
+

@@ -74,7 +74,7 @@ class MedicalRetriever:
             raise FileNotFoundError(f"Index not found: {index_path}")
         
         self.index = faiss.read_index(str(index_path))
-        print(f"✓ Loaded FAISS index: {self.index.ntotal} documents")
+        print(f"[OK] Loaded FAISS index: {self.index.ntotal} documents")
         
         # Load metadata lookup
         metadata_path = Path(metadata_path)
@@ -83,7 +83,7 @@ class MedicalRetriever:
         
         with open(metadata_path, "rb") as f:
             self.metadata_lookup = pickle.load(f)
-        print(f"✓ Loaded metadata: {len(self.metadata_lookup)} entries")
+        print(f"[OK] Loaded metadata: {len(self.metadata_lookup)} entries")
         
         # Validate consistency
         if self.index.ntotal != len(self.metadata_lookup):
@@ -95,9 +95,9 @@ class MedicalRetriever:
         device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"Loading embedding model: {model_name} (device: {device})")
         self.model = SentenceTransformer(model_name, device=device)
-        print(f"✓ Model loaded")
+        print(f"[OK] Model loaded")
         
-        print("✓ MedicalRetriever ready\n")
+        print("[OK] MedicalRetriever ready\n")
     
     def encode_query(self, query: str) -> np.ndarray:
         """

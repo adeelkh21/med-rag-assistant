@@ -1,0 +1,151 @@
+retriever,question_id,category,question,recall@1,recall@3,recall@5,recall@10,mrr,relevant_count,retrieved_count
+BM25 (Sparse),1,symptoms,What are the symptoms of lung cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),2,symptoms,What are the signs of uterine sarcoma?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),3,symptoms,What are the symptoms of extragonadal germ cell tumors?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),4,symptoms,What are the signs of endometrial cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),5,symptoms,What symptoms indicate small cell lung cancer?,0.0000,1.0000,1.0000,1.0000,0.5000,1,10
+BM25 (Sparse),6,treatment,How is uterine sarcoma treated?,0.0000,0.0000,0.0000,0.2000,0.1250,5,10
+BM25 (Sparse),7,treatment,What treatments are available for extragonadal germ cell tumors?,0.2500,0.2500,0.5000,0.5000,1.0000,4,10
+BM25 (Sparse),8,treatment,How is endometrial cancer treated?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),9,treatment,What is chemotherapy for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),10,treatment,What is radiation therapy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),11,diagnosis,How is cancer diagnosed?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),12,diagnosis,What tests are used to diagnose uterine sarcoma?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),13,diagnosis,How are extragonadal germ cell tumors detected?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),14,diagnosis,How is endometrial cancer diagnosed?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),15,diagnosis,What is a biopsy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),16,risk_factors,What are the risk factors for uterine sarcoma?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+BM25 (Sparse),17,risk_factors,What increases the risk of extragonadal germ cell tumors?,0.0000,0.0000,1.0000,1.0000,0.2500,1,10
+BM25 (Sparse),18,risk_factors,What are the risk factors for endometrial cancer?,0.0000,0.0000,0.0000,0.5000,0.1000,2,10
+BM25 (Sparse),19,risk_factors,Does obesity increase cancer risk?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+BM25 (Sparse),20,risk_factors,How does estrogen affect cancer risk?,0.0000,0.0000,0.0000,1.0000,0.1667,3,10
+BM25 (Sparse),21,prevention,How can endometrial cancer be prevented?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),22,prevention,What are cancer prevention clinical trials?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),23,staging,What are the stages of uterine sarcoma?,0.0000,0.0000,0.0000,0.5000,0.1000,2,10
+BM25 (Sparse),24,staging,What are the stages of endometrial cancer?,0.0000,0.0000,0.0000,0.5000,0.1111,2,10
+BM25 (Sparse),25,staging,How does cancer spread in the body?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),26,prognosis,What affects prognosis for non-small cell lung cancer?,1.0000,1.0000,1.0000,1.0000,1.0000,1,10
+BM25 (Sparse),27,prognosis,What factors affect uterine sarcoma prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),28,prognosis,What affects extragonadal germ cell tumor prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),29,prognosis,What affects endometrial cancer prognosis?,1.0000,1.0000,1.0000,1.0000,1.0000,1,10
+BM25 (Sparse),30,clinical_trials,What are clinical trials for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),31,clinical_trials,Should I participate in a clinical trial?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),32,procedures,What is a hysterectomy?,0.0000,0.5000,0.5000,0.5000,0.5000,2,10
+BM25 (Sparse),33,procedures,What is a CT scan?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),34,procedures,What is a chest x-ray?,0.0000,0.0000,0.0000,0.3333,0.1429,3,10
+BM25 (Sparse),35,conditions,What is endometrial hyperplasia?,0.5000,0.5000,1.0000,1.0000,1.0000,2,10
+BM25 (Sparse),36,conditions,What is Lynch syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),37,conditions,What is Klinefelter syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),38,genetics,Does family history affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),39,genetics,What genetic factors increase endometrial cancer risk?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+BM25 (Sparse),40,follow_up,What are follow-up tests after cancer treatment?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),41,procedures,What is a transvaginal ultrasound?,0.0000,0.3333,0.3333,0.6667,0.3333,3,10
+BM25 (Sparse),42,procedures,What is a pelvic exam?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),43,medications,What is tamoxifen and how does it affect cancer risk?,1.0000,1.0000,1.0000,1.0000,1.0000,1,10
+BM25 (Sparse),44,treatment,What is hormone therapy for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+BM25 (Sparse),45,treatment,What is stem cell transplant?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+BM25 (Sparse),46,diagnosis,What procedures diagnose and stage uterine cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),47,diagnosis,What are tumor markers for germ cell tumors?,0.0000,0.3333,0.3333,0.3333,0.3333,3,10
+BM25 (Sparse),48,risk_factors,How does pregnancy affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+BM25 (Sparse),49,treatment,What new cancer treatments are being studied?,0.0000,0.3333,0.3333,0.3333,0.5000,3,10
+BM25 (Sparse),50,treatment,How are nonseminoma germ cell tumors treated?,0.0000,0.0000,0.5000,0.5000,0.2000,2,10
+Dense (FAISS),1,symptoms,What are the symptoms of lung cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),2,symptoms,What are the signs of uterine sarcoma?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),3,symptoms,What are the symptoms of extragonadal germ cell tumors?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),4,symptoms,What are the signs of endometrial cancer?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),5,symptoms,What symptoms indicate small cell lung cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),6,treatment,How is uterine sarcoma treated?,0.0000,0.2000,0.2000,0.4000,0.3333,5,10
+Dense (FAISS),7,treatment,What treatments are available for extragonadal germ cell tumors?,0.0000,0.2500,0.2500,0.7500,0.3333,4,10
+Dense (FAISS),8,treatment,How is endometrial cancer treated?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Dense (FAISS),9,treatment,What is chemotherapy for cancer?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Dense (FAISS),10,treatment,What is radiation therapy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),11,diagnosis,How is cancer diagnosed?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),12,diagnosis,What tests are used to diagnose uterine sarcoma?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),13,diagnosis,How are extragonadal germ cell tumors detected?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+Dense (FAISS),14,diagnosis,How is endometrial cancer diagnosed?,0.0000,0.5000,0.5000,1.0000,0.3333,2,10
+Dense (FAISS),15,diagnosis,What is a biopsy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),16,risk_factors,What are the risk factors for uterine sarcoma?,0.0000,0.5000,0.5000,1.0000,0.3333,2,10
+Dense (FAISS),17,risk_factors,What increases the risk of extragonadal germ cell tumors?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),18,risk_factors,What are the risk factors for endometrial cancer?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+Dense (FAISS),19,risk_factors,Does obesity increase cancer risk?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),20,risk_factors,How does estrogen affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),21,prevention,How can endometrial cancer be prevented?,0.0000,0.3333,0.3333,0.3333,0.3333,3,10
+Dense (FAISS),22,prevention,What are cancer prevention clinical trials?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),23,staging,What are the stages of uterine sarcoma?,0.0000,0.0000,0.0000,0.5000,0.1111,2,10
+Dense (FAISS),24,staging,What are the stages of endometrial cancer?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+Dense (FAISS),25,staging,How does cancer spread in the body?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),26,prognosis,What affects prognosis for non-small cell lung cancer?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),27,prognosis,What factors affect uterine sarcoma prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),28,prognosis,What affects extragonadal germ cell tumor prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),29,prognosis,What affects endometrial cancer prognosis?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Dense (FAISS),30,clinical_trials,What are clinical trials for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),31,clinical_trials,Should I participate in a clinical trial?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),32,procedures,What is a hysterectomy?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Dense (FAISS),33,procedures,What is a CT scan?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),34,procedures,What is a chest x-ray?,0.0000,0.0000,0.3333,0.3333,0.2500,3,10
+Dense (FAISS),35,conditions,What is endometrial hyperplasia?,0.0000,0.0000,0.5000,1.0000,0.2000,2,10
+Dense (FAISS),36,conditions,What is Lynch syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),37,conditions,What is Klinefelter syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),38,genetics,Does family history affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),39,genetics,What genetic factors increase endometrial cancer risk?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Dense (FAISS),40,follow_up,What are follow-up tests after cancer treatment?,0.0000,0.0000,0.0000,0.3333,0.1111,3,10
+Dense (FAISS),41,procedures,What is a transvaginal ultrasound?,0.0000,0.0000,0.0000,0.3333,0.1667,3,10
+Dense (FAISS),42,procedures,What is a pelvic exam?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),43,medications,What is tamoxifen and how does it affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),44,treatment,What is hormone therapy for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Dense (FAISS),45,treatment,What is stem cell transplant?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Dense (FAISS),46,diagnosis,What procedures diagnose and stage uterine cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),47,diagnosis,What are tumor markers for germ cell tumors?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),48,risk_factors,How does pregnancy affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),49,treatment,What new cancer treatments are being studied?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Dense (FAISS),50,treatment,How are nonseminoma germ cell tumors treated?,0.0000,0.5000,0.5000,1.0000,0.3333,2,10
+Hybrid (BM25+Dense),1,symptoms,What are the symptoms of lung cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),2,symptoms,What are the signs of uterine sarcoma?,0.0000,0.0000,1.0000,1.0000,0.2000,1,10
+Hybrid (BM25+Dense),3,symptoms,What are the symptoms of extragonadal germ cell tumors?,0.0000,0.0000,1.0000,1.0000,0.2000,1,10
+Hybrid (BM25+Dense),4,symptoms,What are the signs of endometrial cancer?,0.0000,0.0000,1.0000,1.0000,0.2500,1,10
+Hybrid (BM25+Dense),5,symptoms,What symptoms indicate small cell lung cancer?,0.0000,1.0000,1.0000,1.0000,0.3333,1,10
+Hybrid (BM25+Dense),6,treatment,How is uterine sarcoma treated?,0.0000,0.0000,0.0000,0.4000,0.1667,5,10
+Hybrid (BM25+Dense),7,treatment,What treatments are available for extragonadal germ cell tumors?,0.0000,0.2500,0.2500,0.7500,0.3333,4,10
+Hybrid (BM25+Dense),8,treatment,How is endometrial cancer treated?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),9,treatment,What is chemotherapy for cancer?,0.0000,0.0000,0.0000,0.5000,0.1000,2,10
+Hybrid (BM25+Dense),10,treatment,What is radiation therapy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),11,diagnosis,How is cancer diagnosed?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),12,diagnosis,What tests are used to diagnose uterine sarcoma?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),13,diagnosis,How are extragonadal germ cell tumors detected?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Hybrid (BM25+Dense),14,diagnosis,How is endometrial cancer diagnosed?,0.0000,0.5000,0.5000,0.5000,0.5000,2,10
+Hybrid (BM25+Dense),15,diagnosis,What is a biopsy?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),16,risk_factors,What are the risk factors for uterine sarcoma?,0.0000,0.5000,1.0000,1.0000,0.3333,2,10
+Hybrid (BM25+Dense),17,risk_factors,What increases the risk of extragonadal germ cell tumors?,0.0000,1.0000,1.0000,1.0000,0.5000,1,10
+Hybrid (BM25+Dense),18,risk_factors,What are the risk factors for endometrial cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),19,risk_factors,Does obesity increase cancer risk?,0.0000,1.0000,1.0000,1.0000,0.5000,1,10
+Hybrid (BM25+Dense),20,risk_factors,How does estrogen affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),21,prevention,How can endometrial cancer be prevented?,0.3333,0.3333,0.3333,0.3333,1.0000,3,10
+Hybrid (BM25+Dense),22,prevention,What are cancer prevention clinical trials?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),23,staging,What are the stages of uterine sarcoma?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),24,staging,What are the stages of endometrial cancer?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10
+Hybrid (BM25+Dense),25,staging,How does cancer spread in the body?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),26,prognosis,What affects prognosis for non-small cell lung cancer?,1.0000,1.0000,1.0000,1.0000,1.0000,1,10
+Hybrid (BM25+Dense),27,prognosis,What factors affect uterine sarcoma prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),28,prognosis,What affects extragonadal germ cell tumor prognosis?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),29,prognosis,What affects endometrial cancer prognosis?,0.0000,1.0000,1.0000,1.0000,0.5000,1,10
+Hybrid (BM25+Dense),30,clinical_trials,What are clinical trials for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),31,clinical_trials,Should I participate in a clinical trial?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),32,procedures,What is a hysterectomy?,0.0000,0.5000,0.5000,0.5000,0.5000,2,10
+Hybrid (BM25+Dense),33,procedures,What is a CT scan?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),34,procedures,What is a chest x-ray?,0.0000,0.3333,0.3333,0.3333,0.5000,3,10
+Hybrid (BM25+Dense),35,conditions,What is endometrial hyperplasia?,0.0000,0.5000,0.5000,1.0000,0.3333,2,10
+Hybrid (BM25+Dense),36,conditions,What is Lynch syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),37,conditions,What is Klinefelter syndrome?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),38,genetics,Does family history affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),39,genetics,What genetic factors increase endometrial cancer risk?,0.0000,0.0000,0.0000,1.0000,0.1111,2,10
+Hybrid (BM25+Dense),40,follow_up,What are follow-up tests after cancer treatment?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),41,procedures,What is a transvaginal ultrasound?,0.3333,0.3333,0.3333,0.3333,1.0000,3,10
+Hybrid (BM25+Dense),42,procedures,What is a pelvic exam?,0.0000,0.0000,0.0000,0.5000,0.1667,2,10
+Hybrid (BM25+Dense),43,medications,What is tamoxifen and how does it affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),44,treatment,What is hormone therapy for cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,1,10
+Hybrid (BM25+Dense),45,treatment,What is stem cell transplant?,0.0000,0.0000,0.0000,0.0000,0.0000,2,10
+Hybrid (BM25+Dense),46,diagnosis,What procedures diagnose and stage uterine cancer?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),47,diagnosis,What are tumor markers for germ cell tumors?,0.0000,0.0000,0.0000,0.3333,0.1667,3,10
+Hybrid (BM25+Dense),48,risk_factors,How does pregnancy affect cancer risk?,0.0000,0.0000,0.0000,0.0000,0.0000,3,10
+Hybrid (BM25+Dense),49,treatment,What new cancer treatments are being studied?,0.0000,0.3333,0.3333,0.3333,0.5000,3,10
+Hybrid (BM25+Dense),50,treatment,How are nonseminoma germ cell tumors treated?,0.0000,0.5000,0.5000,0.5000,0.3333,2,10

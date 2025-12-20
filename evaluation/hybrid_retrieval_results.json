@@ -1,0 +1,2891 @@
+[
+  {
+    "retriever_name": "BM25 (Sparse)",
+    "avg_metrics": {
+      "recall@1": 0.075,
+      "recall@3": 0.165,
+      "recall@5": 0.21,
+      "recall@10": 0.2773333333333333,
+      "mrr": 0.18724603174603174
+    },
+    "per_question_results": [
+      {
+        "question_id": 1,
+        "question": "What are the symptoms of lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NIA_LC_TREAT_02",
+          "WHO_LC_TREAT_02",
+          "WHO_LC_TREAT_08",
+          "WHO_LC_TREAT_10",
+          "WHO_SENIOR_TREAT_13"
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "What are the signs of uterine sarcoma?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_US_RISK_01",
+          "NCI_US_RISK_01",
+          "WHO_US_RISK_02",
+          "WHO_US_DIAG_06",
+          "NCI_US_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 3,
+        "question": "What are the symptoms of extragonadal germ cell tumors?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_INFO_01",
+          "WHO_CEGC_TREAT_03",
+          "NCI_CEGC_TREAT_03"
+        ]
+      },
+      {
+        "question_id": 4,
+        "question": "What are the signs of endometrial cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_GEN_01",
+          "WHO_EC_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "WHO_CANCER_GEN_02",
+          "WHO_EC_GEN_02"
+        ]
+      },
+      {
+        "question_id": 5,
+        "question": "What symptoms indicate small cell lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_SCLC_DIAG_01",
+          "NCI_SCLC_DIAG_01",
+          "WHO_SCLC_DIAG_02",
+          "WHO_LC_TREAT_08",
+          "WHO_LC_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 6,
+        "question": "How is uterine sarcoma treated?",
+        "category": "treatment",
+        "relevant_count": 5,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.2,
+        "mrr": 0.125,
+        "retrieved_ids": [
+          "WHO_US_RISK_02",
+          "NCI_US_RISK_01",
+          "WHO_US_RISK_01",
+          "NCI_US_DIAG_02",
+          "WHO_US_DIAG_06"
+        ]
+      },
+      {
+        "question_id": 7,
+        "question": "What treatments are available for extragonadal germ cell tumors?",
+        "category": "treatment",
+        "relevant_count": 4,
+        "retrieved_count": 10,
+        "recall@1": 0.25,
+        "recall@3": 0.25,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_EGCT_TREAT_06",
+          "WHO_EGCT_TREAT_12",
+          "WHO_EGCT_TREAT_06",
+          "WHO_EGCT_TREAT_11",
+          "NCI_EGCT_TREAT_05"
+        ]
+      },
+      {
+        "question_id": 8,
+        "question": "How is endometrial cancer treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_04",
+          "WHO_CANCER_RISK_05",
+          "WHO_CANCER_RISK_04",
+          "WHO_EC_RISK_03",
+          "NCI_CANCER_RISK_05"
+        ]
+      },
+      {
+        "question_id": 9,
+        "question": "What is chemotherapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SENIOR_DIAG_18",
+          "WHO_SC_DIAG_07",
+          "NIA_SENIOR_DIAG_18",
+          "NCI_PSNC_TREAT_06",
+          "WHO_PSNC_TREAT_13"
+        ]
+      },
+      {
+        "question_id": 10,
+        "question": "What is radiation therapy?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CCNS_INFO_03",
+          "WHO_CCNS_INFO_01_v3",
+          "NCI_CCNS_INFO_01_v2",
+          "NCI_PSNC_TREAT_06",
+          "WHO_PSNC_TREAT_13"
+        ]
+      },
+      {
+        "question_id": 11,
+        "question": "How is cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LCH_TREAT_04",
+          "WHO_LCH_TREAT_02",
+          "NCI_LCH_TREAT_01",
+          "NCI_CAML_TREAT_04",
+          "WHO_CAML_TREAT_04"
+        ]
+      },
+      {
+        "question_id": 12,
+        "question": "What tests are used to diagnose uterine sarcoma?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_US_RISK_01",
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01",
+          "NCI_US_DIAG_02",
+          "WHO_US_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 13,
+        "question": "How are extragonadal germ cell tumors detected?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_CEGC_TREAT_14",
+          "NCI_CEGC_TREAT_03"
+        ]
+      },
+      {
+        "question_id": 14,
+        "question": "How is endometrial cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_01",
+          "NCI_EC_TREAT_01",
+          "WHO_EC_TREAT_03",
+          "WHO_EC_RISK_02",
+          "WHO_CANCER_RISK_04"
+        ]
+      },
+      {
+        "question_id": 15,
+        "question": "What is a biopsy?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_WINK_DIAG_01_v5",
+          "WHO_WINK_DIAG_01_v2",
+          "WHO_BA_DIAG_02",
+          "NIDDK_DIABET_DIAG_144",
+          "WHO_DIABET_DIAG_144"
+        ]
+      },
+      {
+        "question_id": 16,
+        "question": "What are the risk factors for uterine sarcoma?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_US_RISK_01",
+          "WHO_US_RISK_02",
+          "NCI_US_RISK_01",
+          "WHO_US_TREAT_08",
+          "WHO_US_TREAT_03"
+        ]
+      },
+      {
+        "question_id": 17,
+        "question": "What increases the risk of extragonadal germ cell tumors?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.25,
+        "retrieved_ids": [
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_INFO_01",
+          "NCI_CANCER_RISK_03",
+          "WHO_EGCT_RISK_01"
+        ]
+      },
+      {
+        "question_id": 18,
+        "question": "What are the risk factors for endometrial cancer?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.1,
+        "retrieved_ids": [
+          "NCI_CANCER_GEN_01",
+          "WHO_EC_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "WHO_CANCER_GEN_02",
+          "WHO_EC_GEN_02"
+        ]
+      },
+      {
+        "question_id": 19,
+        "question": "Does obesity increase cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_CANCER_RISK_06",
+          "WHO_EC_RISK_05",
+          "NCI_CANCER_RISK_06",
+          "WHO_CANCER_RISK_86",
+          "NCI_CANCER_RISK_86"
+        ]
+      },
+      {
+        "question_id": 20,
+        "question": "How does estrogen affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 1.0,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_13",
+          "WHO_EC_RISK_06",
+          "WHO_CANCER_RISK_13",
+          "WHO_EC_RISK_05",
+          "WHO_CANCER_RISK_06"
+        ]
+      },
+      {
+        "question_id": 21,
+        "question": "How can endometrial cancer be prevented?",
+        "category": "prevention",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CANCER_RISK_06",
+          "NCI_CANCER_RISK_06",
+          "WHO_EC_RISK_05",
+          "NCI_CANCER_RISK_04",
+          "WHO_EC_RISK_03"
+        ]
+      },
+      {
+        "question_id": 22,
+        "question": "What are cancer prevention clinical trials?",
+        "category": "prevention",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CC_PREV_02_v2",
+          "WHO_CANCER_PREV_16",
+          "NCI_CANCER_PREV_16",
+          "NCI_CANCER_PREV_15",
+          "WHO_CANCER_PREV_15"
+        ]
+      },
+      {
+        "question_id": 23,
+        "question": "What are the stages of uterine sarcoma?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.1,
+        "retrieved_ids": [
+          "NCI_US_TREAT_03",
+          "WHO_US_TREAT_08",
+          "WHO_US_TREAT_03",
+          "NCI_US_DIAG_02",
+          "WHO_US_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 24,
+        "question": "What are the stages of endometrial cancer?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.1111111111111111,
+        "retrieved_ids": [
+          "WHO_EC_GEN_01",
+          "NCI_CANCER_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "WHO_EC_GEN_02",
+          "NCI_CANCER_GEN_02"
+        ]
+      },
+      {
+        "question_id": 25,
+        "question": "How does cancer spread in the body?",
+        "category": "staging",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_OC_SYM_02_v2",
+          "NICHD_OC_SYM_01",
+          "WHO_OC_SYM_01",
+          "WHO_CC_INFO_09",
+          "WHO_CC_INFO_01"
+        ]
+      },
+      {
+        "question_id": 26,
+        "question": "What affects prognosis for non-small cell lung cancer?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_NSCLC_TREAT_01",
+          "WHO_NSCLC_TREAT_02",
+          "WHO_NSCLC_TREAT_01",
+          "NIA_LC_TREAT_02",
+          "WHO_LC_TREAT_08"
+        ]
+      },
+      {
+        "question_id": 27,
+        "question": "What factors affect uterine sarcoma prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_US_RISK_01",
+          "WHO_US_RISK_01",
+          "WHO_US_RISK_02",
+          "NCI_US_DIAG_02",
+          "WHO_US_DIAG_06"
+        ]
+      },
+      {
+        "question_id": 28,
+        "question": "What affects extragonadal germ cell tumor prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_11",
+          "NCI_EGCT_TREAT_05",
+          "WHO_EGCT_TREAT_05",
+          "WHO_EGCT_INFO_01",
+          "NCI_EGCT_INFO_01"
+        ]
+      },
+      {
+        "question_id": 29,
+        "question": "What affects endometrial cancer prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_EC_TREAT_01",
+          "WHO_EC_TREAT_01",
+          "WHO_EC_TREAT_03",
+          "WHO_SC_TREAT_05_v2",
+          "WHO_SC_TREAT_15"
+        ]
+      },
+      {
+        "question_id": 30,
+        "question": "What are clinical trials for cancer?",
+        "category": "clinical_trials",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SC_TREAT_18",
+          "NCI_CANCER_TREAT_26",
+          "WHO_CANCER_TREAT_26",
+          "WHO_CANCER_TREAT_76",
+          "NCI_CANCER_TREAT_76"
+        ]
+      },
+      {
+        "question_id": 31,
+        "question": "Should I participate in a clinical trial?",
+        "category": "clinical_trials",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SENIOR_TREAT_11",
+          "NIA_SENIOR_TREAT_11",
+          "WHO_PSORIA_TREAT_07",
+          "WHO_PWS_TREAT_04",
+          "GARD_PWS_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 32,
+        "question": "What is a hysterectomy?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_02",
+          "NCI_EC_TREAT_02",
+          "WHO_EC_TREAT_04",
+          "WHO_OEFT_TREAT_05",
+          "WHO_OEFT_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 33,
+        "question": "What is a CT scan?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_STROKE_INFO_05",
+          "NIA_STROKE_INFO_05",
+          "WHO_STROKE_INFO_19",
+          "NIDDK_DIABET_TREAT_32",
+          "WHO_DIABET_TREAT_32"
+        ]
+      },
+      {
+        "question_id": 34,
+        "question": "What is a chest x-ray?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.14285714285714285,
+        "retrieved_ids": [
+          "NCI_CANCER_TREAT_89",
+          "WHO_CANCER_TREAT_89",
+          "WHO_CALL_TREAT_05",
+          "WHO_OLMP_DIAG_03",
+          "WHO_CANCER_DIAG_66"
+        ]
+      },
+      {
+        "question_id": 35,
+        "question": "What is endometrial hyperplasia?",
+        "category": "conditions",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.5,
+        "recall@3": 0.5,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_04",
+          "WHO_CANCER_RISK_05",
+          "WHO_CANCER_RISK_04",
+          "WHO_EC_RISK_03",
+          "NCI_CANCER_RISK_05"
+        ]
+      },
+      {
+        "question_id": 36,
+        "question": "What is Lynch syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LS_CAUSE_02_v4",
+          "WHO_LS_CAUSE_01_v3",
+          "GARD_LS_CAUSE_01",
+          "WHO_LS_RISK_02",
+          "NICHD_LS_RISK_01"
+        ]
+      },
+      {
+        "question_id": 37,
+        "question": "What is Klinefelter syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_KS_INFO_03_v3",
+          "NICHD_KS_INFO_01_v2",
+          "WHO_KS_INFO_01_v2",
+          "WHO_KS_SYM_07",
+          "GARD_GENETI_SYM_59"
+        ]
+      },
+      {
+        "question_id": 38,
+        "question": "Does family history affect cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CAFH_RISK_01",
+          "WHO_SENIOR_RISK_11",
+          "NIA_SENIOR_RISK_11",
+          "WHO_CANCER_RISK_15",
+          "NCI_CANCER_RISK_15"
+        ]
+      },
+      {
+        "question_id": 39,
+        "question": "What genetic factors increase endometrial cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_RISK_05",
+          "WHO_CANCER_RISK_06",
+          "NCI_CANCER_RISK_06",
+          "NCI_CANCER_RISK_13",
+          "WHO_EC_RISK_06"
+        ]
+      },
+      {
+        "question_id": 40,
+        "question": "What are follow-up tests after cancer treatment?",
+        "category": "follow_up",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CEGC_INFO_05",
+          "NCI_CEGC_INFO_02",
+          "WHO_CEGC_INFO_02",
+          "NCI_AALL_TREAT_07",
+          "WHO_AALL_TREAT_16"
+        ]
+      },
+      {
+        "question_id": 41,
+        "question": "What is a transvaginal ultrasound?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_DIAG_03",
+          "WHO_CANCER_DIAG_07",
+          "NCI_CANCER_DIAG_07",
+          "WHO_CANCER_DIAG_65",
+          "WHO_OLMP_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 42,
+        "question": "What is a pelvic exam?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NIDDK_WINK_INFO_03_v2",
+          "WHO_WINK_INFO_06_v7",
+          "WHO_WINK_INFO_03_v2",
+          "WHO_PSP_INFO_02_v2",
+          "WHO_PSP_INFO_03_v3"
+        ]
+      },
+      {
+        "question_id": 43,
+        "question": "What is tamoxifen and how does it affect cancer risk?",
+        "category": "medications",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_06",
+          "WHO_EC_RISK_05",
+          "WHO_CANCER_RISK_06",
+          "NCI_CANCER_RISK_13",
+          "WHO_CANCER_RISK_13"
+        ]
+      },
+      {
+        "question_id": 44,
+        "question": "What is hormone therapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CCNS_INFO_01_v3",
+          "WHO_CCNS_INFO_03",
+          "NCI_CCNS_INFO_01_v2",
+          "WHO_MBC_TREAT_03",
+          "NCI_MBC_TREAT_03"
+        ]
+      },
+      {
+        "question_id": 45,
+        "question": "What is stem cell transplant?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_AKD_TREAT_04",
+          "WHO_AKD_TREAT_01",
+          "NIDDK_AKD_TREAT_01",
+          "NCI_CAML_TREAT_13",
+          "WHO_CAML_TREAT_27"
+        ]
+      },
+      {
+        "question_id": 46,
+        "question": "What procedures diagnose and stage uterine cancer?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_US_DIAG_02",
+          "WHO_US_DIAG_02",
+          "WHO_US_DIAG_06",
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01"
+        ]
+      },
+      {
+        "question_id": 47,
+        "question": "What are tumor markers for germ cell tumors?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_05",
+          "WHO_EGCT_TREAT_11",
+          "NCI_EGCT_TREAT_05",
+          "WHO_CEGC_TREAT_21",
+          "NCI_CEGC_TREAT_10"
+        ]
+      },
+      {
+        "question_id": 48,
+        "question": "How does pregnancy affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_GTD_RISK_03",
+          "NCI_CANCER_RISK_52",
+          "WHO_CANCER_RISK_52",
+          "WHO_AHL_RISK_01",
+          "NCI_CANCER_RISK_47"
+        ]
+      },
+      {
+        "question_id": 49,
+        "question": "What new cancer treatments are being studied?",
+        "category": "treatment",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_CANCER_TREAT_02",
+          "NCI_CANCER_TREAT_02",
+          "WHO_CANCER_TREAT_20",
+          "NCI_CANCER_TREAT_20",
+          "WHO_KS_TREAT_04"
+        ]
+      },
+      {
+        "question_id": 50,
+        "question": "How are nonseminoma germ cell tumors treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.2,
+        "retrieved_ids": [
+          "WHO_EC_INFO_02_v2",
+          "WHO_EC_INFO_01",
+          "GARD_EC_INFO_01",
+          "WHO_EGCT_TREAT_05",
+          "NCI_EGCT_TREAT_05"
+        ]
+      }
+    ],
+    "total_questions": 50
+  },
+  {
+    "retriever_name": "Dense (FAISS)",
+    "avg_metrics": {
+      "recall@1": 0.0,
+      "recall@3": 0.21566666666666667,
+      "recall@5": 0.23233333333333334,
+      "recall@10": 0.3496666666666667,
+      "mrr": 0.13677777777777775
+    },
+    "per_question_results": [
+      {
+        "question_id": 1,
+        "question": "What are the symptoms of lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LC_SYM_04",
+          "WHO_LC_SYM_01",
+          "NIA_LC_SYM_01",
+          "WHO_LC_INFO_19",
+          "WHO_LC_INFO_07"
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "What are the signs of uterine sarcoma?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_US_SYM_02",
+          "WHO_US_SYM_01_v2",
+          "NCI_US_SYM_01",
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01"
+        ]
+      },
+      {
+        "question_id": 3,
+        "question": "What are the symptoms of extragonadal germ cell tumors?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_SYM_02",
+          "WHO_EGCT_SYM_01",
+          "NCI_EGCT_SYM_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_INFO_01"
+        ]
+      },
+      {
+        "question_id": 4,
+        "question": "What are the signs of endometrial cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_SYM_02_v2",
+          "WHO_EC_SYM_01",
+          "NCI_EC_SYM_01",
+          "WHO_EC_RISK_04",
+          "WHO_EC_RISK_01"
+        ]
+      },
+      {
+        "question_id": 5,
+        "question": "What symptoms indicate small cell lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SCLC_SYM_02",
+          "WHO_SCLC_SYM_01",
+          "NCI_SCLC_SYM_01",
+          "WHO_LC_SYM_04",
+          "WHO_LC_SYM_01"
+        ]
+      },
+      {
+        "question_id": 6,
+        "question": "How is uterine sarcoma treated?",
+        "category": "treatment",
+        "relevant_count": 5,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.2,
+        "recall@5": 0.2,
+        "recall@10": 0.4,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_US_TREAT_08",
+          "WHO_US_TREAT_03",
+          "NCI_US_TREAT_03",
+          "WHO_US_DIAG_06",
+          "WHO_US_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 7,
+        "question": "What treatments are available for extragonadal germ cell tumors?",
+        "category": "treatment",
+        "relevant_count": 4,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.25,
+        "recall@5": 0.25,
+        "recall@10": 0.75,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_12",
+          "WHO_EGCT_TREAT_06",
+          "NCI_EGCT_TREAT_06",
+          "WHO_EGCT_TREAT_11",
+          "WHO_EGCT_TREAT_05"
+        ]
+      },
+      {
+        "question_id": 8,
+        "question": "How is endometrial cancer treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_US_TREAT_08",
+          "WHO_US_TREAT_03",
+          "NCI_US_TREAT_03",
+          "WHO_EC_TREAT_03",
+          "WHO_EC_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 9,
+        "question": "What is chemotherapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_BC_TREAT_30",
+          "WHO_BC_TREAT_08",
+          "NIA_BC_TREAT_08",
+          "WHO_EGCT_TREAT_10",
+          "WHO_EGCT_TREAT_04"
+        ]
+      },
+      {
+        "question_id": 10,
+        "question": "What is radiation therapy?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_RT_TREAT_01",
+          "WHO_OTHER_TREAT_27",
+          "WHO_OTHER_TREAT_04",
+          "WHO_BC_TREAT_29",
+          "WHO_BC_TREAT_07"
+        ]
+      },
+      {
+        "question_id": 11,
+        "question": "How is cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SC_INFO_25",
+          "WHO_SENIOR_INFO_40",
+          "NIA_SENIOR_INFO_40",
+          "WHO_SC_DIAG_02_v2",
+          "WHO_SC_DIAG_01"
+        ]
+      },
+      {
+        "question_id": 12,
+        "question": "What tests are used to diagnose uterine sarcoma?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01",
+          "NCI_US_RISK_01",
+          "WHO_US_DIAG_06",
+          "WHO_US_DIAG_02"
+        ]
+      },
+      {
+        "question_id": 13,
+        "question": "How are extragonadal germ cell tumors detected?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_DIAG_02",
+          "WHO_CANCER_DIAG_05",
+          "NCI_CANCER_DIAG_05",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_INFO_01"
+        ]
+      },
+      {
+        "question_id": 14,
+        "question": "How is endometrial cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_DIAG_03",
+          "WHO_CANCER_DIAG_07",
+          "NCI_CANCER_DIAG_07",
+          "WHO_EC_DIAG_02",
+          "WHO_CANCER_DIAG_06"
+        ]
+      },
+      {
+        "question_id": 15,
+        "question": "What is a biopsy?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_BIOPSY_INFO_01",
+          "WHO_OTHER_INFO_346",
+          "WHO_OTHER_INFO_136",
+          "WHO_CD_DIAG_03",
+          "WHO_DIABET_DIAG_62"
+        ]
+      },
+      {
+        "question_id": 16,
+        "question": "What are the risk factors for uterine sarcoma?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_US_RISK_03",
+          "WHO_CANCER_RISK_02",
+          "NCI_CANCER_RISK_02",
+          "WHO_EC_RISK_04",
+          "WHO_EC_RISK_01"
+        ]
+      },
+      {
+        "question_id": 17,
+        "question": "What increases the risk of extragonadal germ cell tumors?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_RISK_01",
+          "WHO_CANCER_RISK_03",
+          "NCI_CANCER_RISK_03",
+          "WHO_CEGC_RISK_01",
+          "WHO_CANCER_RISK_20"
+        ]
+      },
+      {
+        "question_id": 18,
+        "question": "What are the risk factors for endometrial cancer?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_RISK_04",
+          "WHO_EC_RISK_01",
+          "NCI_EC_RISK_01",
+          "WHO_EC_RISK_06",
+          "WHO_CANCER_RISK_13"
+        ]
+      },
+      {
+        "question_id": 19,
+        "question": "Does obesity increase cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_RISK_05",
+          "WHO_CANCER_RISK_06",
+          "NCI_CANCER_RISK_06",
+          "WHO_SENIOR_RISK_12",
+          "NIA_SENIOR_RISK_12"
+        ]
+      },
+      {
+        "question_id": 20,
+        "question": "How does estrogen affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_BC_RISK_04",
+          "WHO_SENIOR_RISK_42",
+          "NIA_SENIOR_RISK_42",
+          "WHO_BC_RISK_03",
+          "WHO_SENIOR_RISK_41"
+        ]
+      },
+      {
+        "question_id": 21,
+        "question": "How can endometrial cancer be prevented?",
+        "category": "prevention",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "NCI_CANCER_GEN_01",
+          "WHO_EC_RISK_03",
+          "WHO_EC_RISK_02"
+        ]
+      },
+      {
+        "question_id": 22,
+        "question": "What are cancer prevention clinical trials?",
+        "category": "prevention",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CANCER_PREV_18",
+          "NCI_CANCER_PREV_18",
+          "WHO_PC_PREV_10",
+          "WHO_CANCER_PREV_14",
+          "NCI_CANCER_PREV_14"
+        ]
+      },
+      {
+        "question_id": 23,
+        "question": "What are the stages of uterine sarcoma?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.1111111111111111,
+        "retrieved_ids": [
+          "WHO_US_DIAG_06",
+          "WHO_US_DIAG_02",
+          "NCI_US_DIAG_02",
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01"
+        ]
+      },
+      {
+        "question_id": 24,
+        "question": "What are the stages of endometrial cancer?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_STAGE_02",
+          "WHO_EC_STAGE_01",
+          "NCI_EC_STAGE_01",
+          "WHO_UC_INFO_03_v2",
+          "WHO_UC_INFO_02_v2"
+        ]
+      },
+      {
+        "question_id": 25,
+        "question": "How does cancer spread in the body?",
+        "category": "staging",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_TC_TREAT_02",
+          "WHO_TC_TREAT_01",
+          "NCI_TC_TREAT_01",
+          "WHO_ARL_STAGE_05",
+          "WHO_ARL_STAGE_02"
+        ]
+      },
+      {
+        "question_id": 26,
+        "question": "What affects prognosis for non-small cell lung cancer?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_NSCLC_TREAT_02",
+          "WHO_NSCLC_TREAT_01",
+          "NCI_NSCLC_TREAT_01",
+          "WHO_US_TREAT_06",
+          "WHO_US_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 27,
+        "question": "What factors affect uterine sarcoma prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CSTS_TREAT_15",
+          "WHO_CSTS_TREAT_06",
+          "NCI_CSTS_TREAT_06",
+          "WHO_ASTS_TREAT_08",
+          "WHO_ASTS_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 28,
+        "question": "What affects extragonadal germ cell tumor prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CEGC_TREAT_15",
+          "WHO_CEGC_TREAT_04",
+          "NCI_CEGC_TREAT_04",
+          "WHO_EGCT_RISK_01",
+          "WHO_CANCER_RISK_03"
+        ]
+      },
+      {
+        "question_id": 29,
+        "question": "What affects endometrial cancer prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_03",
+          "WHO_EC_TREAT_01",
+          "NCI_EC_TREAT_01",
+          "WHO_EC_RISK_06",
+          "WHO_CANCER_RISK_13"
+        ]
+      },
+      {
+        "question_id": 30,
+        "question": "What are clinical trials for cancer?",
+        "category": "clinical_trials",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CE_TREAT_15",
+          "WHO_CE_TREAT_06",
+          "NCI_CE_TREAT_06",
+          "WHO_CML_TREAT_12",
+          "WHO_CML_TREAT_04"
+        ]
+      },
+      {
+        "question_id": 31,
+        "question": "Should I participate in a clinical trial?",
+        "category": "clinical_trials",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CC_TREAT_12_v2",
+          "WHO_CANCER_TREAT_32",
+          "NCI_CANCER_TREAT_32",
+          "WHO_ASTS_TREAT_10",
+          "WHO_CANCER_TREAT_122"
+        ]
+      },
+      {
+        "question_id": 32,
+        "question": "What is a hysterectomy?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_HYSTER_TREAT_01",
+          "WHO_OTHER_TREAT_33",
+          "WHO_OTHER_TREAT_10",
+          "WHO_EC_TREAT_04",
+          "WHO_EC_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 33,
+        "question": "What is a CT scan?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CS_INFO_01_v11",
+          "WHO_OTHER_INFO_369",
+          "WHO_OTHER_INFO_159",
+          "WHO_HCL_GEN_01",
+          "WHO_CANCER_GEN_05"
+        ]
+      },
+      {
+        "question_id": 34,
+        "question": "What is a chest x-ray?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.25,
+        "retrieved_ids": [
+          "WHO_HEART__DIAG_44",
+          "NHLBI_HEART__DIAG_44",
+          "WHO_CANCER_TREAT_01",
+          "NCI_CANCER_TREAT_01",
+          "WHO_XR_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 35,
+        "question": "What is endometrial hyperplasia?",
+        "category": "conditions",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.5,
+        "recall@10": 1.0,
+        "mrr": 0.2,
+        "retrieved_ids": [
+          "WHO_EC_RISK_03",
+          "WHO_EC_RISK_02",
+          "WHO_CANCER_RISK_05",
+          "WHO_CANCER_RISK_04",
+          "NCI_CANCER_RISK_05"
+        ]
+      },
+      {
+        "question_id": 36,
+        "question": "What is Lynch syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LS_RISK_02",
+          "WHO_LS_RISK_01",
+          "NICHD_LS_RISK_01",
+          "WHO_LS_CAUSE_02_v4",
+          "WHO_LS_CAUSE_01_v3"
+        ]
+      },
+      {
+        "question_id": 37,
+        "question": "What is Klinefelter syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_KS_SYM_09",
+          "WHO_KS_SYM_01",
+          "NICHD_KS_SYM_01",
+          "WHO_KS_STAGE_03",
+          "WHO_KS_STAGE_02"
+        ]
+      },
+      {
+        "question_id": 38,
+        "question": "Does family history affect cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_FH_INFO_03",
+          "WHO_FH_INFO_02",
+          "WHO_FH_INFO_01",
+          "WHO_SENIOR_RISK_11",
+          "NIA_SENIOR_RISK_11"
+        ]
+      },
+      {
+        "question_id": 39,
+        "question": "What genetic factors increase endometrial cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_EC_GEN_02",
+          "WHO_CANCER_GEN_02",
+          "NCI_CANCER_GEN_02",
+          "WHO_EC_GEN_01",
+          "WHO_CANCER_GEN_01"
+        ]
+      },
+      {
+        "question_id": 40,
+        "question": "What are follow-up tests after cancer treatment?",
+        "category": "follow_up",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.1111111111111111,
+        "retrieved_ids": [
+          "WHO_MELANO_TREAT_12",
+          "WHO_CANCER_TREAT_34",
+          "NCI_CANCER_TREAT_34",
+          "WHO_CEGC_INFO_05",
+          "WHO_CEGC_INFO_02"
+        ]
+      },
+      {
+        "question_id": 41,
+        "question": "What is a transvaginal ultrasound?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_OLMP_DIAG_02",
+          "WHO_CANCER_DIAG_65",
+          "NCI_CANCER_DIAG_65",
+          "WHO_EC_DIAG_03",
+          "WHO_CANCER_DIAG_07"
+        ]
+      },
+      {
+        "question_id": 42,
+        "question": "What is a pelvic exam?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_OEFT_DIAG_01",
+          "WHO_CANCER_DIAG_88",
+          "WHO_CANCER_DIAG_71",
+          "WHO_CANCER_DIAG_64",
+          "WHO_CANCER_DIAG_60"
+        ]
+      },
+      {
+        "question_id": 43,
+        "question": "What is tamoxifen and how does it affect cancer risk?",
+        "category": "medications",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_BC_RISK_11",
+          "WHO_BC_RISK_08",
+          "WHO_CANCER_RISK_71",
+          "WHO_CANCER_RISK_68",
+          "NCI_CANCER_RISK_71"
+        ]
+      },
+      {
+        "question_id": 44,
+        "question": "What is hormone therapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_BC_TREAT_31",
+          "WHO_BC_TREAT_09",
+          "NIA_BC_TREAT_09",
+          "WHO_PC_TREAT_24",
+          "WHO_PC_TREAT_10"
+        ]
+      },
+      {
+        "question_id": 45,
+        "question": "What is stem cell transplant?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_MMN_INFO_02",
+          "WHO_MMN_INFO_01_v2",
+          "NCI_MMN_INFO_01",
+          "WHO_SCD_CAUSE_06",
+          "WHO_SCD_CAUSE_03"
+        ]
+      },
+      {
+        "question_id": 46,
+        "question": "What procedures diagnose and stage uterine cancer?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_EC_DIAG_03",
+          "WHO_CANCER_DIAG_07",
+          "NCI_CANCER_DIAG_07",
+          "WHO_EC_DIAG_02",
+          "WHO_CANCER_DIAG_06"
+        ]
+      },
+      {
+        "question_id": 47,
+        "question": "What are tumor markers for germ cell tumors?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CEGC_SYM_03",
+          "WHO_CEGC_SYM_01",
+          "NCI_CEGC_SYM_01",
+          "WHO_CEGC_DIAG_02",
+          "WHO_CANCER_DIAG_18"
+        ]
+      },
+      {
+        "question_id": 48,
+        "question": "How does pregnancy affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_BC_PREV_02_v2",
+          "WHO_BC_PREV_01_v2",
+          "WHO_CANCER_PREV_20",
+          "WHO_CANCER_PREV_19",
+          "NCI_CANCER_PREV_20"
+        ]
+      },
+      {
+        "question_id": 49,
+        "question": "What new cancer treatments are being studied?",
+        "category": "treatment",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SC_TREAT_11",
+          "WHO_SC_TREAT_03",
+          "NIA_SC_TREAT_03",
+          "WHO_CHL_TREAT_04",
+          "WHO_CANCER_TREAT_63"
+        ]
+      },
+      {
+        "question_id": 50,
+        "question": "How are nonseminoma germ cell tumors treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_11",
+          "WHO_EGCT_TREAT_05",
+          "NCI_EGCT_TREAT_05",
+          "WHO_EGCT_TREAT_12",
+          "WHO_EGCT_TREAT_06"
+        ]
+      }
+    ],
+    "total_questions": 50
+  },
+  {
+    "retriever_name": "Hybrid (BM25+Dense)",
+    "avg_metrics": {
+      "recall@1": 0.03333333333333333,
+      "recall@3": 0.19166666666666668,
+      "recall@5": 0.26166666666666666,
+      "recall@10": 0.3463333333333333,
+      "mrr": 0.20055555555555557
+    },
+    "per_question_results": [
+      {
+        "question_id": 1,
+        "question": "What are the symptoms of lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LC_TREAT_02",
+          "WHO_LC_SYM_04",
+          "NIA_LC_SYM_01",
+          "WHO_LC_SYM_01",
+          "NIA_LC_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "What are the signs of uterine sarcoma?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.2,
+        "retrieved_ids": [
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01",
+          "NCI_US_RISK_01",
+          "WHO_US_SYM_01_v2",
+          "NCI_US_SYM_01"
+        ]
+      },
+      {
+        "question_id": 3,
+        "question": "What are the symptoms of extragonadal germ cell tumors?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.2,
+        "retrieved_ids": [
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_SYM_01",
+          "NCI_EGCT_SYM_01"
+        ]
+      },
+      {
+        "question_id": 4,
+        "question": "What are the signs of endometrial cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.25,
+        "retrieved_ids": [
+          "WHO_CANCER_GEN_01",
+          "NCI_CANCER_GEN_01",
+          "WHO_EC_GEN_01",
+          "NCI_EC_SYM_01",
+          "WHO_EC_SYM_02_v2"
+        ]
+      },
+      {
+        "question_id": 5,
+        "question": "What symptoms indicate small cell lung cancer?",
+        "category": "symptoms",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "NCI_SCLC_SYM_01",
+          "WHO_SCLC_SYM_01",
+          "NCI_SCLC_DIAG_01",
+          "WHO_SCLC_DIAG_01",
+          "WHO_SCLC_SYM_02"
+        ]
+      },
+      {
+        "question_id": 6,
+        "question": "How is uterine sarcoma treated?",
+        "category": "treatment",
+        "relevant_count": 5,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.4,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_US_DIAG_02",
+          "WHO_US_DIAG_06",
+          "NCI_US_DIAG_02",
+          "WHO_US_TREAT_03",
+          "WHO_US_TREAT_08"
+        ]
+      },
+      {
+        "question_id": 7,
+        "question": "What treatments are available for extragonadal germ cell tumors?",
+        "category": "treatment",
+        "relevant_count": 4,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.25,
+        "recall@5": 0.25,
+        "recall@10": 0.75,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_12",
+          "WHO_EGCT_TREAT_06",
+          "NCI_EGCT_TREAT_06",
+          "WHO_EGCT_TREAT_11",
+          "WHO_EGCT_TREAT_05"
+        ]
+      },
+      {
+        "question_id": 8,
+        "question": "How is endometrial cancer treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_EC_RISK_02",
+          "WHO_US_TREAT_03",
+          "WHO_CANCER_RISK_05",
+          "NCI_CANCER_RISK_04",
+          "WHO_US_TREAT_08"
+        ]
+      },
+      {
+        "question_id": 9,
+        "question": "What is chemotherapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.1,
+        "retrieved_ids": [
+          "NIA_BC_TREAT_08",
+          "WHO_SC_DIAG_07",
+          "NIA_SENIOR_DIAG_18",
+          "WHO_SENIOR_DIAG_18",
+          "WHO_BC_TREAT_08"
+        ]
+      },
+      {
+        "question_id": 10,
+        "question": "What is radiation therapy?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CCNS_INFO_03",
+          "WHO_OTHER_TREAT_04",
+          "WHO_RT_TREAT_01",
+          "NCI_CCNS_INFO_01_v2",
+          "WHO_OTHER_TREAT_27"
+        ]
+      },
+      {
+        "question_id": 11,
+        "question": "How is cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_SENIOR_INFO_40",
+          "NIA_SENIOR_INFO_40",
+          "WHO_LCH_TREAT_04",
+          "NCI_LCH_TREAT_01",
+          "WHO_LCH_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 12,
+        "question": "What tests are used to diagnose uterine sarcoma?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01",
+          "NCI_US_RISK_01",
+          "WHO_US_DIAG_02",
+          "WHO_US_DIAG_06"
+        ]
+      },
+      {
+        "question_id": 13,
+        "question": "How are extragonadal germ cell tumors detected?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_DIAG_02",
+          "WHO_CANCER_DIAG_05"
+        ]
+      },
+      {
+        "question_id": 14,
+        "question": "How is endometrial cancer diagnosed?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_03",
+          "NCI_CANCER_DIAG_07",
+          "NCI_EC_TREAT_01",
+          "WHO_EC_TREAT_01",
+          "WHO_EC_DIAG_03"
+        ]
+      },
+      {
+        "question_id": 15,
+        "question": "What is a biopsy?",
+        "category": "diagnosis",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_OTHER_INFO_136",
+          "WHO_OTHER_INFO_346",
+          "WHO_WINK_DIAG_01_v5",
+          "WHO_BIOPSY_INFO_01",
+          "WHO_CD_DIAG_03"
+        ]
+      },
+      {
+        "question_id": 16,
+        "question": "What are the risk factors for uterine sarcoma?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01",
+          "NCI_US_RISK_01",
+          "NCI_CANCER_RISK_02",
+          "WHO_CANCER_RISK_02"
+        ]
+      },
+      {
+        "question_id": 17,
+        "question": "What increases the risk of extragonadal germ cell tumors?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_CANCER_RISK_03",
+          "NCI_CANCER_RISK_03",
+          "WHO_EGCT_RISK_01",
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_01"
+        ]
+      },
+      {
+        "question_id": 18,
+        "question": "What are the risk factors for endometrial cancer?",
+        "category": "risk_factors",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "WHO_EC_GEN_01",
+          "NCI_CANCER_GEN_02",
+          "WHO_CANCER_GEN_02"
+        ]
+      },
+      {
+        "question_id": 19,
+        "question": "Does obesity increase cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_CANCER_RISK_06",
+          "NCI_CANCER_RISK_06",
+          "WHO_EC_RISK_05",
+          "NIA_SENIOR_RISK_12",
+          "WHO_SENIOR_RISK_12"
+        ]
+      },
+      {
+        "question_id": 20,
+        "question": "How does estrogen affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CANCER_RISK_13",
+          "NCI_CANCER_RISK_13",
+          "WHO_EC_RISK_06",
+          "WHO_SENIOR_RISK_42",
+          "WHO_BC_RISK_04"
+        ]
+      },
+      {
+        "question_id": 21,
+        "question": "How can endometrial cancer be prevented?",
+        "category": "prevention",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.3333333333333333,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_CANCER_GEN_01",
+          "WHO_CANCER_GEN_01",
+          "WHO_EC_GEN_01",
+          "WHO_EC_RISK_02",
+          "WHO_CANCER_RISK_05"
+        ]
+      },
+      {
+        "question_id": 22,
+        "question": "What are cancer prevention clinical trials?",
+        "category": "prevention",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CANCER_PREV_16",
+          "WHO_CC_PREV_02_v2",
+          "NCI_CANCER_PREV_16",
+          "WHO_SC_PREV_01_v2",
+          "WHO_CANCER_PREV_15"
+        ]
+      },
+      {
+        "question_id": 23,
+        "question": "What are the stages of uterine sarcoma?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_US_DIAG_02",
+          "WHO_US_DIAG_06",
+          "NCI_US_DIAG_02",
+          "WHO_US_RISK_02",
+          "WHO_US_RISK_01"
+        ]
+      },
+      {
+        "question_id": 24,
+        "question": "What are the stages of endometrial cancer?",
+        "category": "staging",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_STAGE_02",
+          "WHO_EC_STAGE_01",
+          "NCI_EC_STAGE_01",
+          "WHO_CANCER_GEN_01",
+          "NCI_CANCER_GEN_01"
+        ]
+      },
+      {
+        "question_id": 25,
+        "question": "How does cancer spread in the body?",
+        "category": "staging",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_OC_SYM_01",
+          "WHO_TC_TREAT_02",
+          "NICHD_OC_SYM_01",
+          "NCI_TC_TREAT_01",
+          "WHO_TC_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 26,
+        "question": "What affects prognosis for non-small cell lung cancer?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_NSCLC_TREAT_01",
+          "WHO_NSCLC_TREAT_02",
+          "WHO_NSCLC_TREAT_01",
+          "WHO_LC_TREAT_02",
+          "NIA_LC_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 27,
+        "question": "What factors affect uterine sarcoma prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_ASTS_TREAT_01",
+          "NCI_ASTS_TREAT_01",
+          "WHO_ASTS_TREAT_08",
+          "WHO_US_RISK_02",
+          "NCI_CSTS_TREAT_06"
+        ]
+      },
+      {
+        "question_id": 28,
+        "question": "What affects extragonadal germ cell tumor prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_EGCT_INFO_01",
+          "NCI_EGCT_INFO_01",
+          "WHO_EGCT_INFO_03",
+          "WHO_EGCT_TREAT_11",
+          "WHO_CEGC_TREAT_04"
+        ]
+      },
+      {
+        "question_id": 29,
+        "question": "What affects endometrial cancer prognosis?",
+        "category": "prognosis",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_03",
+          "NCI_EC_TREAT_01",
+          "WHO_EC_TREAT_01",
+          "NCI_CANCER_GEN_02",
+          "WHO_CANCER_GEN_02"
+        ]
+      },
+      {
+        "question_id": 30,
+        "question": "What are clinical trials for cancer?",
+        "category": "clinical_trials",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_TREAT_26",
+          "WHO_CE_TREAT_06",
+          "NCI_CE_TREAT_06",
+          "WHO_SC_TREAT_18",
+          "WHO_CE_TREAT_15"
+        ]
+      },
+      {
+        "question_id": 31,
+        "question": "Should I participate in a clinical trial?",
+        "category": "clinical_trials",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NIA_SENIOR_TREAT_11",
+          "WHO_PSORIA_TREAT_07",
+          "WHO_CANCER_TREAT_32",
+          "NCI_CANCER_TREAT_32",
+          "WHO_CC_TREAT_12_v2"
+        ]
+      },
+      {
+        "question_id": 32,
+        "question": "What is a hysterectomy?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_EC_TREAT_04",
+          "NCI_EC_TREAT_02",
+          "WHO_EC_TREAT_02",
+          "WHO_HYSTER_TREAT_01",
+          "WHO_OTHER_TREAT_10"
+        ]
+      },
+      {
+        "question_id": 33,
+        "question": "What is a CT scan?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NIA_STROKE_INFO_05",
+          "WHO_STROKE_INFO_05",
+          "WHO_STROKE_INFO_19",
+          "WHO_OTHER_INFO_369",
+          "WHO_OTHER_INFO_159"
+        ]
+      },
+      {
+        "question_id": 34,
+        "question": "What is a chest x-ray?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_CANCER_TREAT_01",
+          "NCI_CANCER_TREAT_01",
+          "WHO_CANCER_TREAT_89",
+          "NHLBI_HEART__DIAG_44",
+          "WHO_CALL_TREAT_05"
+        ]
+      },
+      {
+        "question_id": 35,
+        "question": "What is endometrial hyperplasia?",
+        "category": "conditions",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 1.0,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EC_RISK_02",
+          "WHO_CANCER_RISK_05",
+          "NCI_CANCER_RISK_04",
+          "WHO_EC_RISK_03",
+          "WHO_CANCER_RISK_04"
+        ]
+      },
+      {
+        "question_id": 36,
+        "question": "What is Lynch syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_LS_CAUSE_01_v3",
+          "WHO_LS_CAUSE_02_v4",
+          "GARD_LS_CAUSE_01",
+          "NICHD_LS_RISK_01",
+          "WHO_LS_RISK_01"
+        ]
+      },
+      {
+        "question_id": 37,
+        "question": "What is Klinefelter syndrome?",
+        "category": "conditions",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_KS_SYM_09",
+          "NICHD_KS_SYM_01",
+          "WHO_KS_SYM_01",
+          "WHO_KS_SYM_02",
+          "GARD_KS_SYM_01_v5"
+        ]
+      },
+      {
+        "question_id": 38,
+        "question": "Does family history affect cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CAFH_RISK_01",
+          "WHO_SENIOR_RISK_11",
+          "NIA_SENIOR_RISK_11",
+          "WHO_FH_INFO_03",
+          "WHO_FH_INFO_02"
+        ]
+      },
+      {
+        "question_id": 39,
+        "question": "What genetic factors increase endometrial cancer risk?",
+        "category": "genetics",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 1.0,
+        "mrr": 0.1111111111111111,
+        "retrieved_ids": [
+          "NCI_CANCER_GEN_02",
+          "WHO_CANCER_GEN_02",
+          "WHO_EC_GEN_02",
+          "WHO_CANCER_RISK_13",
+          "NCI_CANCER_RISK_13"
+        ]
+      },
+      {
+        "question_id": 40,
+        "question": "What are follow-up tests after cancer treatment?",
+        "category": "follow_up",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CEGC_INFO_02",
+          "NCI_CEGC_INFO_02",
+          "WHO_CEGC_INFO_05",
+          "WHO_CANCER_TREAT_34",
+          "NCI_CANCER_TREAT_34"
+        ]
+      },
+      {
+        "question_id": 41,
+        "question": "What is a transvaginal ultrasound?",
+        "category": "procedures",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.3333333333333333,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 1.0,
+        "retrieved_ids": [
+          "NCI_CANCER_DIAG_07",
+          "WHO_EC_DIAG_03",
+          "WHO_CANCER_DIAG_07",
+          "WHO_OLMP_DIAG_02",
+          "NCI_CANCER_DIAG_65"
+        ]
+      },
+      {
+        "question_id": 42,
+        "question": "What is a pelvic exam?",
+        "category": "procedures",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_WINK_INFO_06_v7",
+          "WHO_WINK_INFO_03_v2",
+          "WHO_OEFT_DIAG_01",
+          "NIDDK_WINK_INFO_03_v2",
+          "WHO_CANCER_DIAG_64"
+        ]
+      },
+      {
+        "question_id": 43,
+        "question": "What is tamoxifen and how does it affect cancer risk?",
+        "category": "medications",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_71",
+          "NCI_CANCER_RISK_68",
+          "WHO_CANCER_RISK_71",
+          "WHO_BC_RISK_08",
+          "WHO_CANCER_RISK_68"
+        ]
+      },
+      {
+        "question_id": 44,
+        "question": "What is hormone therapy for cancer?",
+        "category": "treatment",
+        "relevant_count": 1,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_CCNS_INFO_03",
+          "NCI_CCNS_INFO_01_v2",
+          "NIA_BC_TREAT_09",
+          "WHO_BC_TREAT_31",
+          "WHO_BC_TREAT_09"
+        ]
+      },
+      {
+        "question_id": 45,
+        "question": "What is stem cell transplant?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_MMN_INFO_01",
+          "WHO_MMN_INFO_02",
+          "WHO_MMN_INFO_01_v2",
+          "WHO_AKD_TREAT_04",
+          "WHO_AKD_TREAT_01"
+        ]
+      },
+      {
+        "question_id": 46,
+        "question": "What procedures diagnose and stage uterine cancer?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "WHO_US_DIAG_02",
+          "WHO_US_DIAG_06",
+          "NCI_US_DIAG_02",
+          "NCI_CANCER_DIAG_07",
+          "WHO_EC_DIAG_03"
+        ]
+      },
+      {
+        "question_id": 47,
+        "question": "What are tumor markers for germ cell tumors?",
+        "category": "diagnosis",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "retrieved_ids": [
+          "WHO_CEGC_SYM_01",
+          "WHO_EGCT_TREAT_11",
+          "NCI_CEGC_SYM_01",
+          "WHO_CEGC_SYM_03",
+          "WHO_EGCT_TREAT_05"
+        ]
+      },
+      {
+        "question_id": 48,
+        "question": "How does pregnancy affect cancer risk?",
+        "category": "risk_factors",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.0,
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "retrieved_ids": [
+          "NCI_CANCER_RISK_52",
+          "WHO_CANCER_RISK_52",
+          "WHO_GTD_RISK_03",
+          "WHO_BC_PREV_02_v2",
+          "WHO_BC_PREV_01_v2"
+        ]
+      },
+      {
+        "question_id": 49,
+        "question": "What new cancer treatments are being studied?",
+        "category": "treatment",
+        "relevant_count": 3,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.3333333333333333,
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "mrr": 0.5,
+        "retrieved_ids": [
+          "WHO_SC_TREAT_11",
+          "NCI_CANCER_TREAT_02",
+          "WHO_SC_TREAT_03",
+          "NIA_SC_TREAT_03",
+          "WHO_CANCER_TREAT_02"
+        ]
+      },
+      {
+        "question_id": 50,
+        "question": "How are nonseminoma germ cell tumors treated?",
+        "category": "treatment",
+        "relevant_count": 2,
+        "retrieved_count": 10,
+        "recall@1": 0.0,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "mrr": 0.3333333333333333,
+        "retrieved_ids": [
+          "WHO_EGCT_TREAT_11",
+          "WHO_EGCT_TREAT_05",
+          "NCI_EGCT_TREAT_05",
+          "GARD_EC_INFO_01",
+          "WHO_EC_INFO_02_v2"
+        ]
+      }
+    ],
+    "total_questions": 50
+  }
+]
